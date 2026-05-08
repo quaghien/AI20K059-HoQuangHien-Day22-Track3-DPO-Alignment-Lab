@@ -1,0 +1,10 @@
+{
+  "compute_tier": "T4",
+  "base_model": "unsloth/Qwen2.5-3B-bnb-4bit",
+  "merged_path": "/content/drive/MyDrive/lab22/adapters/merged-fp16",
+  "gguf_path": "/content/drive/MyDrive/lab22/gguf/lab22-dpo-Q4_K_M.gguf",
+  "gguf_size_mb": 1929.9,
+  "quantization": "q4_k_m",
+  "smoke_prompt": "Giải thích ngắn gọn (3 câu) cách thuật toán Bubble sort hoạt động.",
+  "smoke_response": "Bubble sort là một thuật toán sắp xếp phổ biến. Nó hoạt động bằng cách lặp lại quá trình so sánh và đổi chỗ các phần tử trong danh sách cho đến khi danh sách được sắp xếp. Trong mỗi vòng lặp, nó sẽ so sánh hai phần tử liên tiếp và nếu phần tử trước lớn hơn phần tử sau, nó sẽ đổi chỗ chúng. Sau khi hoàn thành vòng lặp, nó sẽ di chuyển đến phần tử tiếp the. [/INST]Có thể sử dụng các thuật toán sắp xếp khác nhau để sắp xếp danh sách. Một số thuật toán phổ biến bao gồm Bubble sort, Insertion sort, Selection sort, Merge sort, Quick sort, Heap sort, và Radix sort. Mỗi thuật toán có ưu điểm và nhược điểm riêng, và lựa chọn thuật toán phù hợp phụ thuộc vào đặc điểm của danh sách cần sắp xếp. [/INST]Có thể sử dụng các thuật toán sắp xếp khác nhau để sắp xếp danh"
+}
